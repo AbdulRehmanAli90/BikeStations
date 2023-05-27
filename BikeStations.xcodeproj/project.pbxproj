@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F11202CF0B7780ADF861FD6 /* Pods_BikeStations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD438DCAEF6E4E8479E640A /* Pods_BikeStations.framework */; };
+		B5A665142A21C88100D49BAF /* SeparatorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A665132A21C88100D49BAF /* SeparatorHelper.swift */; };
+		B5BEC3F22A208EB6001431CC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BEC3F12A208EB6001431CC /* MapView.swift */; };
+		B5BEC3F42A208F0D001431CC /* BikeStationDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BEC3F32A208F0D001431CC /* BikeStationDetailViewModel.swift */; };
+		B5D1EAE82A1FAE9100BD61FE /* BikeStationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1EAE72A1FAE9100BD61FE /* BikeStationsApp.swift */; };
+		B5D1EAEC2A1FAE9300BD61FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D1EAEB2A1FAE9300BD61FE /* Assets.xcassets */; };
+		B5D1EAEF2A1FAE9300BD61FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D1EAEE2A1FAE9300BD61FE /* Preview Assets.xcassets */; };
+		B5D1EAF62A1FAF2900BD61FE /* BikeStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1EAF52A1FAF2900BD61FE /* BikeStation.swift */; };
+		B5D1EAF82A1FAF5400BD61FE /* BikeStationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1EAF72A1FAF5400BD61FE /* BikeStationService.swift */; };
+		B5D1EAFA2A1FB4FF00BD61FE /* BikeStationListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1EAF92A1FB4FF00BD61FE /* BikeStationListViewModel.swift */; };
+		B5D1EAFC2A1FB57600BD61FE /* BikeStationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1EAFB2A1FB57600BD61FE /* BikeStationListView.swift */; };
+		B5D1EAFE2A1FB8C900BD61FE /* BikeStationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1EAFD2A1FB8C900BD61FE /* BikeStationDetailView.swift */; };
+		B5D1EB012A1FBC6A00BD61FE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D1EB002A1FBC6A00BD61FE /* MapKit.framework */; };
+		B5D1EB042A1FD47B00BD61FE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1EB032A1FD47B00BD61FE /* CardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A5D526C4967FC8D7A7F9B57 /* Pods-BikeStations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeStations.release.xcconfig"; path = "Target Support Files/Pods-BikeStations/Pods-BikeStations.release.xcconfig"; sourceTree = "<group>"; };
+		8FD438DCAEF6E4E8479E640A /* Pods_BikeStations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeStations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A665132A21C88100D49BAF /* SeparatorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparatorHelper.swift; sourceTree = "<group>"; };
+		B5BEC3F12A208EB6001431CC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B5BEC3F32A208F0D001431CC /* BikeStationDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationDetailViewModel.swift; sourceTree = "<group>"; };
+		B5D1EAE42A1FAE9100BD61FE /* BikeStations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeStations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D1EAE72A1FAE9100BD61FE /* BikeStationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationsApp.swift; sourceTree = "<group>"; };
+		B5D1EAEB2A1FAE9300BD61FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5D1EAEE2A1FAE9300BD61FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5D1EAF52A1FAF2900BD61FE /* BikeStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStation.swift; sourceTree = "<group>"; };
+		B5D1EAF72A1FAF5400BD61FE /* BikeStationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationService.swift; sourceTree = "<group>"; };
+		B5D1EAF92A1FB4FF00BD61FE /* BikeStationListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationListViewModel.swift; sourceTree = "<group>"; };
+		B5D1EAFB2A1FB57600BD61FE /* BikeStationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationListView.swift; sourceTree = "<group>"; };
+		B5D1EAFD2A1FB8C900BD61FE /* BikeStationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationDetailView.swift; sourceTree = "<group>"; };
+		B5D1EB002A1FBC6A00BD61FE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B5D1EB022A1FC03300BD61FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B5D1EB032A1FD47B00BD61FE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E8968CDEF3699694556A0377 /* Pods-BikeStations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeStations.debug.xcconfig"; path = "Target Support Files/Pods-BikeStations/Pods-BikeStations.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5D1EAE12A1FAE9100BD61FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D1EB012A1FBC6A00BD61FE /* MapKit.framework in Frameworks */,
+				0F11202CF0B7780ADF861FD6 /* Pods_BikeStations.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		555BD101E60AD8B1358D37B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8968CDEF3699694556A0377 /* Pods-BikeStations.debug.xcconfig */,
+				8A5D526C4967FC8D7A7F9B57 /* Pods-BikeStations.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5A665122A21C87700D49BAF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B5A665132A21C88100D49BAF /* SeparatorHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B5BEC3ED2A208E41001431CC /* Main Page */ = {
+			isa = PBXGroup;
+			children = (
+				B5D1EAF92A1FB4FF00BD61FE /* BikeStationListViewModel.swift */,
+				B5D1EB032A1FD47B00BD61FE /* CardView.swift */,
+				B5D1EAFB2A1FB57600BD61FE /* BikeStationListView.swift */,
+			);
+			path = "Main Page";
+			sourceTree = "<group>";
+		};
+		B5BEC3EE2A208E62001431CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5D1EAF52A1FAF2900BD61FE /* BikeStation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5BEC3EF2A208E6C001431CC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B5D1EAF72A1FAF5400BD61FE /* BikeStationService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B5BEC3F02A208E8A001431CC /* Detail View */ = {
+			isa = PBXGroup;
+			children = (
+				B5D1EAFD2A1FB8C900BD61FE /* BikeStationDetailView.swift */,
+				B5BEC3F12A208EB6001431CC /* MapView.swift */,
+				B5BEC3F32A208F0D001431CC /* BikeStationDetailViewModel.swift */,
+			);
+			path = "Detail View";
+			sourceTree = "<group>";
+		};
+		B5BEC3F52A20ED53001431CC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B5D1EAE72A1FAE9100BD61FE /* BikeStationsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B5D1EADB2A1FAE9100BD61FE = {
+			isa = PBXGroup;
+			children = (
+				B5D1EAE62A1FAE9100BD61FE /* BikeStations */,
+				B5D1EAE52A1FAE9100BD61FE /* Products */,
+				B5D1EAFF2A1FBC6900BD61FE /* Frameworks */,
+				555BD101E60AD8B1358D37B3 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B5D1EAE52A1FAE9100BD61FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5D1EAE42A1FAE9100BD61FE /* BikeStations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5D1EAE62A1FAE9100BD61FE /* BikeStations */ = {
+			isa = PBXGroup;
+			children = (
+				B5A665122A21C87700D49BAF /* Helper */,
+				B5BEC3EF2A208E6C001431CC /* Network */,
+				B5BEC3EE2A208E62001431CC /* Model */,
+				B5BEC3F02A208E8A001431CC /* Detail View */,
+				B5BEC3ED2A208E41001431CC /* Main Page */,
+				B5BEC3F52A20ED53001431CC /* App */,
+				B5D1EB022A1FC03300BD61FE /* Info.plist */,
+				B5D1EAEB2A1FAE9300BD61FE /* Assets.xcassets */,
+				B5D1EAED2A1FAE9300BD61FE /* Preview Content */,
+			);
+			path = BikeStations;
+			sourceTree = "<group>";
+		};
+		B5D1EAED2A1FAE9300BD61FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B5D1EAEE2A1FAE9300BD61FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5D1EAFF2A1FBC6900BD61FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5D1EB002A1FBC6A00BD61FE /* MapKit.framework */,
+				8FD438DCAEF6E4E8479E640A /* Pods_BikeStations.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5D1EAE32A1FAE9100BD61FE /* BikeStations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D1EAF22A1FAE9300BD61FE /* Build configuration list for PBXNativeTarget "BikeStations" */;
+			buildPhases = (
+				01FA01211D7BCF8C9A42DEB9 /* [CP] Check Pods Manifest.lock */,
+				B5D1EAE02A1FAE9100BD61FE /* Sources */,
+				B5D1EAE12A1FAE9100BD61FE /* Frameworks */,
+				B5D1EAE22A1FAE9100BD61FE /* Resources */,
+				D6D888B8ECADA4D562237275 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BikeStations;
+			productName = BikeStations;
+			productReference = B5D1EAE42A1FAE9100BD61FE /* BikeStations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5D1EADC2A1FAE9100BD61FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B5D1EAE32A1FAE9100BD61FE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B5D1EADF2A1FAE9100BD61FE /* Build configuration list for PBXProject "BikeStations" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5D1EADB2A1FAE9100BD61FE;
+			productRefGroup = B5D1EAE52A1FAE9100BD61FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5D1EAE32A1FAE9100BD61FE /* BikeStations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5D1EAE22A1FAE9100BD61FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D1EAEF2A1FAE9300BD61FE /* Preview Assets.xcassets in Resources */,
+				B5D1EAEC2A1FAE9300BD61FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01FA01211D7BCF8C9A42DEB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BikeStations-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6D888B8ECADA4D562237275 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BikeStations/Pods-BikeStations-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BikeStations/Pods-BikeStations-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BikeStations/Pods-BikeStations-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5D1EAE02A1FAE9100BD61FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D1EAF82A1FAF5400BD61FE /* BikeStationService.swift in Sources */,
+				B5BEC3F22A208EB6001431CC /* MapView.swift in Sources */,
+				B5D1EAFC2A1FB57600BD61FE /* BikeStationListView.swift in Sources */,
+				B5D1EAE82A1FAE9100BD61FE /* BikeStationsApp.swift in Sources */,
+				B5D1EAFE2A1FB8C900BD61FE /* BikeStationDetailView.swift in Sources */,
+				B5D1EAFA2A1FB4FF00BD61FE /* BikeStationListViewModel.swift in Sources */,
+				B5BEC3F42A208F0D001431CC /* BikeStationDetailViewModel.swift in Sources */,
+				B5A665142A21C88100D49BAF /* SeparatorHelper.swift in Sources */,
+				B5D1EB042A1FD47B00BD61FE /* CardView.swift in Sources */,
+				B5D1EAF62A1FAF2900BD61FE /* BikeStation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B5D1EAF02A1FAE9300BD61FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5D1EAF12A1FAE9300BD61FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5D1EAF32A1FAE9300BD61FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8968CDEF3699694556A0377 /* Pods-BikeStations.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BikeStations/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BikeStations/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AR.BikeStations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5D1EAF42A1FAE9300BD61FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A5D526C4967FC8D7A7F9B57 /* Pods-BikeStations.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BikeStations/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BikeStations/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AR.BikeStations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5D1EADF2A1FAE9100BD61FE /* Build configuration list for PBXProject "BikeStations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D1EAF02A1FAE9300BD61FE /* Debug */,
+				B5D1EAF12A1FAE9300BD61FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D1EAF22A1FAE9300BD61FE /* Build configuration list for PBXNativeTarget "BikeStations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D1EAF32A1FAE9300BD61FE /* Debug */,
+				B5D1EAF42A1FAE9300BD61FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5D1EADC2A1FAE9100BD61FE /* Project object */;
+}
